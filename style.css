@@ -1,0 +1,63 @@
+html, body{
+    text-align: center;
+}
+
+h2{
+    height: 1vw;
+}
+
+div{
+    margin: 0px auto;
+}
+
+.parentConatiner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: solid black 4px; */
+    width: 80vw;
+    gap: 30px;
+    height: 60vw;
+}
+
+
+
+.element{
+    scale: 1;
+    height: 40px;
+    width: 40px;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: solid black 2px; */
+    height: fit-content;
+    margin-left: 40px;
+    
+
+}
+
+.button{
+    padding: 4px 8px;
+    border-radius: 20%;
+    margin: 10px;
+    width: 75%;
+}
+
+.button_red{
+    background-color: red;
+}
+
+#elipseContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    /* border: solid black 2px; */
+    /* height: min-content; */
+    height: 50vw;
+    width: 50vw;
+}
